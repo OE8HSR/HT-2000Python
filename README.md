@@ -8,3 +8,10 @@ t-Omicr0n posted a great reverse engeneering aricle here: https://globalblindspo
 i "ported" the code to python by copying his code and changed it till it worked...
 
 Thanks Tom! =)
+
+
+
+The HT-2000 should show itself as /dev/hidraw0 if you run python3 ht2000_test.py it reads the HT-2000 every 5 seconds and prints the values on the screen.
+It also loggs the data to ./env.log
+
+
